@@ -1,0 +1,13 @@
+
+
+#train: C:/Users/30877/Desktop/1/imgdata/images/train # ../mydata/images/train
+#val: C:/Users/30877/Desktop/1/imgdata/images/val # ../mydata/images/val
+#test: ../mydata/images/test
+#test: E:/PyCharmProject/experiment/VOCdevkit/VOC/ImageSets/Main/test.txt
+train: C:/Users/30877/Desktop/1/imgdata/images/train
+val: C:/Users/30877/Desktop/1/imgdata/images/val
+nc : 3
+
+names : ['swimming', 'tread_water', 'drowning']
+
+# tensorboard --logdir=E:\PyCharmProject\experiment\yolov5-3.1\runs
